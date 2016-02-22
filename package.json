@@ -1,0 +1,25 @@
+{
+  "name": "combee",
+  "version": "0.0.1",
+  "description": "415: Compositional Behaviour",
+  "main": "dist.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "babel index.js -o dist.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "composition",
+    "entity",
+    "component"
+  ],
+  "author": "Justin Jaffray",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {}
+}
